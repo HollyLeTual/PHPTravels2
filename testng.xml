@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PHP Travels">
+
+  <test name="Home Page Navigation">
+    <classes>
+      <class name="PHP_TestPackage.HomePageNavigation"/>
+      </classes>
+  </test> <!-- Test -->
+  
+    <test name="Validate Home Page">
+    <classes>
+      <class name="PHP_TestPackage.ValidateHomePage"/>
+      </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

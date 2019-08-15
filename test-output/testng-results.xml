@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="64303" started-at="2019-08-15T12:49:18Z" finished-at="2019-08-15T12:50:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="64303" started-at="2019-08-15T12:49:18Z" finished-at="2019-08-15T12:50:23Z">
+      <class name="Resources.Base">
+        <test-method status="PASS" signature="bsuite()[pri:0, instance:Resources.Base@343f4d3d]" name="bsuite" is-config="true" duration-ms="568" started-at="2019-08-15T12:49:18Z" finished-at="2019-08-15T12:49:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsuite -->
+      </class> <!-- Resources.Base -->
+      <class name="PHP_TestPackage.ValidateHomePage">
+        <test-method status="PASS" signature="preConditions()[pri:0, instance:PHP_TestPackage.ValidateHomePage@53b32d7]" name="preConditions" is-config="true" duration-ms="21376" started-at="2019-08-15T12:49:18Z" finished-at="2019-08-15T12:49:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method status="PASS" signature="ValidateHomePage()[pri:0, instance:PHP_TestPackage.ValidateHomePage@53b32d7]" name="ValidateHomePage" duration-ms="18767" started-at="2019-08-15T12:49:40Z" finished-at="2019-08-15T12:49:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateHomePage -->
+      </class> <!-- PHP_TestPackage.ValidateHomePage -->
+      <class name="PHP_TestPackage.HomePageNavigation">
+        <test-method status="PASS" signature="HomePageNavigation()[pri:0, instance:PHP_TestPackage.HomePageNavigation@5442a311]" name="HomePageNavigation" duration-ms="19757" started-at="2019-08-15T12:49:58Z" finished-at="2019-08-15T12:50:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:PHP_TestPackage.HomePageNavigation@5442a311]" name="teardown" is-config="true" duration-ms="2130" started-at="2019-08-15T12:50:18Z" finished-at="2019-08-15T12:50:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:PHP_TestPackage.ValidateHomePage@53b32d7]" name="teardown" is-config="true" duration-ms="2227" started-at="2019-08-15T12:50:20Z" finished-at="2019-08-15T12:50:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- PHP_TestPackage.HomePageNavigation -->
+      <class name="Inmarsat.AppTest">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:Inmarsat.AppTest@548e7350]" name="testApp" duration-ms="2" started-at="2019-08-15T12:49:58Z" finished-at="2019-08-15T12:49:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- Inmarsat.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
